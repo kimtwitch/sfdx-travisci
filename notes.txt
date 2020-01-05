@@ -1,0 +1,6 @@
+set CONSUMER_KEY=3MVG9CEn_O3jvv0yGOwTzxpk7e_3Rj8FlTTMlQ71G7ZuawQOMMYY3mF_ZmzR3btGl7389KSBTXOsD8qXvsigW
+set JWT_KEY_FILE=C:\Users\Soobtate\Documents\SFDX\certificates\server.key
+set HUB_USERNAME=zachy.soobin@playful-raccoon-317449.com
+
+
+ sfdx force:auth:jwt:grant --clientid ${CONSUMER_KEY} --username ${HUB_USERNAME} --jwtkeyfile ${JWT_KEY_FILE} --setdefaultdevhubusername -u zachy.soobin@playful-raccoon-317449
